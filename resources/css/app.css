@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(202, 202, 197)
+}
+.navbar{
+    height: 43px;
+}
+nav{
+    background-color: #ff3908;
+}
+#header{
+    background-color: #333333;
+    color: white;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+
+}
+.breadcrumb{
+    background-color: #cccccc;
+    color: #333333;
+} 
+.breadcrumb a{
+    color:#c9bcbc ;
+}
+.ss{
+    background-color: #ff3908 ;
+}
+.progress-bar{
+    background-color: #333333;
+}
+.panel-first{
+    background-color: #ff3908 ;
+    height: 50px;
+}
+.table-title{
+    background-color: rgb(31, 30, 30);
+}
+    .col .c-d{
+
+        width: 10rem;
+    }
+    footer{
+        background-color: #333333;
+        color: #fff4f4;
+        height: 3rem;
+        font-weight: 700;
+        margin-top:50px;
+
+    }
+
+@media(max-width:768px){
+    .col .c-d{
+        margin-top: 30px;
+        margin-left: 10px;
+        width: 30rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-self: center;
+    }
+    .navbar{
+        height: 60px;
+        z-index: 100;
+    }
+    .navbar-nav{
+        height: 30vh;
+        width: 100%;
+        
+        z-index: 1100;
+        background-color: #ff3908;
+        margin-top: 6px;
+    }
+    .navbar-nav li{
+        margin-left: 10px;
+    }
+    .card-title{
+        height: 65px;
+        
+    }
+    .ststics-card{
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+    .sign{
+        display: flex;
+        color: black;
+        margin-top: -100px;
+    }
+}
+    
